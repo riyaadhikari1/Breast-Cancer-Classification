@@ -10,6 +10,8 @@ This Streamlit-based web app allows users to classify histopathological breast c
 - PDF report generation with predictions and heatmaps
 - Feedback system for model accuracy tracking
 
+---
+
 ## Tech Stack
 
 - Python
@@ -18,6 +20,8 @@ This Streamlit-based web app allows users to classify histopathological breast c
 - Streamlit
 - FPDF
 - ResNet50 (pretrained backbone)
+  
+---
 
 ## Folder Structure
 
@@ -39,4 +43,13 @@ project/
 
 └── README.md
 
-└── test images
+└── test images/ # Sample histopathology images
+
+---
+
+## Model Preparation
+
+> The files `best_model_fold3.keras` and `best_model_fold4.keras` are **not included** in this repository by default.
+
+To generate these models, run the training notebook in different environment (Local PC/Kaggle/Google Collab etc.)
+resnet-50-minimal.ipynb
