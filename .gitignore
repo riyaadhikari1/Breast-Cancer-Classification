@@ -1,0 +1,37 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+.env
+
+# Logs and system files
+*.log
+.DS_Store
+Thumbs.db
+
+# Model files
+*.keras
+*.h5
+*.pb
+*.tflite
+
+# Generated Grad-CAM images and PDF reports
+gradcam_*.png
+report.pdf
+
+# Uploaded files (if stored locally)
+uploaded_files/
+temp/
+
+# Streamlit config and history
+.streamlit/
+*.toml
+
+# Zip or compressed files
+*.zip
